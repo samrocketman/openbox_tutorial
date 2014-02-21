@@ -1,0 +1,19 @@
+#!/bin/sh
+alias ls='ls -lah --color=auto'
+alias ssh='ssh -C'
+alias clean='echo -n "Really clean this directory?";
+	read yorn;
+	if test "$yorn" = "y"; then
+	   rm -f \#* *~ .*~ *.bak .*.bak  *.tmp .*.tmp core a.out;
+	   echo "Cleaned.";
+	else
+	   echo "Not cleaned.";
+	fi'
+alias findfiles='sudo find / -type f -name'
+alias finddirs='sudo find / -type d -name'
+alias df='df -h'
+alias du='du -shc'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias firefoxvacuum='echo "sqlite3 VACUUM and REINDEX on firefox";for x in `find ~ -type f -name *.sqlite* | grep firefox`;do echo "$x";sqlite3 $x VACUUM;sqlite3 $x REINDEX;done'
+alias grep='grep --color=auto'

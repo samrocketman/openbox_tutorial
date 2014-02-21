@@ -1,0 +1,36 @@
+Welcome to Sam Gleske's openbox configuration for the eeePC 900.  I installed
+openbox on easypeasy 1.5 and this config directory is an exact copy of my
+configurations so that you may know how my setup is configured.  Please note
+that in the configuration files locations such as /home/sam/ may not exist on
+your installation because that is the username I chose.  Whenever you see ~/
+I mean /home/sam/ directory for me or whatever your username is for you.
+
+icons directory was located ~/Pictures/.  This houses many of my wbar icons.
+
+openbox directory was located ~/.config/.  This contains my openbox resource
+files.  Files like menu.xml was configured using the obmenu application.
+rc.xml contains my custom defined keyboard shortcuts such as (super key is the
+same as the Windows key on a win keyboard or the home key on eeePC):
+Super+d shows the desktop
+Super+w opens web browser
+Super+t opens terminal
+Super+l locks the screen using xlock (part of the xlockmore package)
+Super+o turns of the screen.  This is good for when I'm remote controlling
+other computer keyboards and mice using synergy (http://synergy.sf.net/).
+
+scripts directory was located ~/.config/.  This contains my custom scripts for
+maintenance tasks or openbox menu customizations.
+
+tint2 directory was located ~/.config/.  This contains my taskbar configuration.
+
+The files within the wbar directory was located /usr/share/wbar/.  This
+contains the custom Mac OS X like menu.  For some of the icons google chrom and
+the pidgin instant messaging client must be installed.
+
+The bash_aliases file was located and renamed to ~/.bash_aliases.  This has my
+custom aliases which I think new users to Linux will find useful.  If you don't
+know what bash aliases are then google "Linux aliases" and there should be some
+good articles which explain the topic.
+
+The vimrc file was located and renamed to ~/.vimrc.  This has some of my
+custom settings for vim which I use regularly.

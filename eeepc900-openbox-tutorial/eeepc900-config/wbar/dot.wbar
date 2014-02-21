@@ -1,0 +1,107 @@
+#Sams config
+
+# The Bar && Font
+i: /usr/share/wbar/iconpack/wbar.osx/osxbarback.png
+t: /usr/share/wbar/font/12
+c:
+
+i: /usr/share/wbar/iconpack/wbar.osx/nautilus.png
+c: nautilus --no-desktop --browser
+t: Nautilus File Browser
+
+#i: /usr/share/wbar/iconpack/wbar.osx/cedega.png
+#c: 
+#t: wine
+
+#i: /usr/share/wbar/iconpack/wbar.osx/firefox.png
+#c: firefox
+#t: Mozilla Firefox
+
+i: /opt/google/chrome/product_logo_256.png
+c: google-chrome
+t: Google Chrome
+
+i: /home/sam/Pictures/wbar/terminal_rg.png
+c: x-terminal-emulator
+t: Terminal
+
+#i: /usr/share/wbar/iconpack/wbar.osx/thunderbird.png
+#c: thunderbird
+#t: thunderbird
+
+#i: /usr/share/wbar/iconpack/wbar.osx/gearth.png
+#c: 
+#t: gearth
+
+#i: /usr/share/wbar/iconpack/wbar.osx/skype.png
+#c: skype
+#t: skype
+
+#i: /usr/share/wbar/iconpack/wbar.osx/psi.png
+i: /usr/share/pixmaps/pidgin/protocols/48/aim.png
+c: pidgin
+t: Pidgin Instant Messenger
+
+#i: /usr/share/wbar/iconpack/wbar.osx/mlgui.png
+#c: 
+#t: sancho
+
+#i: /usr/share/wbar/iconpack/wbar.osx/ooffice.png
+#c: soffice
+#t: ooffice
+
+i: /home/sam/Pictures/wbar/G3MSWord.png
+c: oowriter
+t: Word Processor
+
+i: /home/sam/Pictures/wbar/G3MSExcel.png
+c: oocalc
+t: Spreadsheet
+
+i: /home/sam/Pictures/wbar/G3PowerPoint.png
+c: ooimpress
+t: Presentation
+
+i: /home/sam/Pictures/wbar/G3MSOutlook.png
+c: thunderbird
+t: Email Client
+
+#i: /usr/share/wbar/iconpack/wbar.osx/acroread.png
+#c: acroread
+#t: acroread
+
+#i: /usr/share/wbar/iconpack/wbar.osx/beagle.png
+#c: beagle-search
+#t: beagle
+
+i: /usr/share/wbar/iconpack/wbar.osx/gimp.png
+c: gimp
+t: Gimp Graphics Editor
+
+i: /home/sam/Pictures/wbar/inkscape.png
+c: inkscape
+t: Inkscape Vector Graphics Editor
+
+#i: /usr/share/wbar/iconpack/wbar.osx/picasa.png
+#c: picasa
+#t: picasa
+
+#i: /usr/share/wbar/iconpack/wbar.osx/gqview.png
+#c: gqview
+#t: gqview
+
+i: /usr/share/wbar/iconpack/wbar.osx/xmms.png
+c: audacious
+t: Audacious Audio Player
+
+#i: /usr/share/wbar/iconpack/wbar.osx/gnucash.png
+#c: gnucash
+#t: gnucash
+
+#i: /usr/share/wbar/iconpack/wbar.osx/gmplayer.png
+#c: gmplayer
+#t: gmplayer
+
+i: /home/sam/Pictures/wbar/XMoto_Icon_1_red_Snapshot.png
+c: xmoto
+t: XMoto
